@@ -40,8 +40,7 @@ const items = [
     getItem("Thêm Admin", "/admin-sign-up", <UserAddOutlined />),
   
     getItem("Khách hàng", "sub1", <UserOutlined />, [
-        getItem("Danh sách phim", "3"),
-        getItem("Đặt vé", "4"),
+        getItem("Danh sách phim", "/"),
     ]),
     getItem("Đăng xuất", "/login", <LogoutOutlined />),
 ];
